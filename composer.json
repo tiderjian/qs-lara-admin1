@@ -1,0 +1,25 @@
+{
+    "name": "tiderjian/qs-lara-admin",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tiderjian",
+            "email": "164710115@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Tiderjian\\Admin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tiderjian\\Admin\\AdminServiceProvider"
+            ],
+        }
+    }
+}
