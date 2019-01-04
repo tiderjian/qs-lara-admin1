@@ -18,7 +18,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Tiderjian\\Admin\\AdminServiceProvider",
+                "Tiderjian\\Admin\\AdminServiceProvider"
             ]
         }
     }
